@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/core.css">
+	<link rel="stylesheet" href="./css/main.css">
+	<title>Document</title>
+</head>
+
+<body>
+	<div class="sprite-block">
+		<svg width="0" height="0" class="hidden">
+			<symbol fill="none" viewBox="0 0 24 24" id="arrow-right">
+				<path d="M5 12h14M12 5l7 7-7 7" stroke="#302234" stroke-width="2" stroke-linecap="round"
+					stroke-linejoin="round" />
+			</symbol>
+		</svg>
+	</div>
+
+
+	<header class="header">
+		<div class="container">
+			<div class="header-content">
+				<nav class="nav"></nav>
+				<button class="open-nav btn hover-scale left-icon outlined c-s">
+					<span class="icon icon-20 svg color-inherit c-c color-inherit">
+						<svg fill="none" viewBox="0 0 24 24">
+							<path
+								d="M12 13a1 1 0 1 0 0-2 1 1 0 0 0 0 2ZM19 13a1 1 0 1 0 0-2 1 1 0 0 0 0 2ZM5 13a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z"
+								stroke="#302234" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+						</svg>
+					</span>
+					<span class="button-text">Меню</span>
+				</button>
+			</div>
+
+		</div>
+	</header>
+	<main class="main">
+		<div class="hero">
+			<div class="container">
+				<h1 class="hero-title">QA Servise Lab — <br class="m-hide">Компания тестирования</h1>
+			</div>
+		</div>
+
+		<section class="services">
+			<div class="container">
+				<div class="title-line">
+					<span class="sub-title">Услуги</span>
+					<h2 class="block-title m-0">Тестируем</h2>
+					<button class="btn btn hover-scale right-icon outlined c-s">
+						<span class="button-text">Все услуги</span>
+						<span class="icon icon-20 svg color-inherit c-c color-inherit">
+							<svg>
+								<use xlink:href="#arrow-right"></use>
+							</svg>
+						</span>
+					</button>
+				</div>
+
+				<ul class="services-list no-list">
+					<li>
+						<a href="#" class="service-link">
+							<div class="service-info">
+								<h3 class="service-name m-0">Web приложения</h3>
+								<p class="service-descr m-0">Тестирование микросервисной и монолитной архитектуры,
+									высоконагруженные и распределенных приложений..</p>
+								<span class="btn btn hover-scale outlined round c-s">
+									<span class="icon icon-20 svg color-inherit c-c color-inherit">
+										<svg>
+											<use xlink:href="#arrow-right"></use>
+										</svg>
+									</span>
+								</span>
+							</div>
+							<ul class="service-logo no-list">
+								<li><img src="./img/front-logo.svg" alt="FrontEnd logo"></li>
+								<li><img src="./img/back-logo.svg" alt="BackEnd logo"></li>
+								<li><img src="./img/api-logo.svg" alt="API logo"></li>
+							</ul>
+						</a>
+					</li>
+
+					<li>
+						<a href="#" class="service-link">
+							<div class="service-info">
+								<h3 class="service-name m-0">Mobile приложения</h3>
+								<p class="service-descr m-0">Приложения под любые мобильные операционные системы:
+									Android,
+									iOS и другие.</p>
+								<span class="btn btn hover-scale outlined round c-s">
+									<span class="icon icon-20 svg color-inherit c-c color-inherit">
+										<svg>
+											<use xlink:href="#arrow-right"></use>
+										</svg>
+									</span>
+								</span>
+							</div>
+							<ul class="service-logo no-list">
+								<li><img src="./img/ios-logo.svg" alt="ios logo"></li>
+								<li><img src="./img/android-logo.svg" alt="android logo"></li>
+							</ul>
+						</a>
+					</li>
+
+					<li>
+						<a href="#" class="service-link">
+							<div class="service-info">
+								<h3 class="service-name m-0">Desktop приложения</h3>
+								<p class="service-descr m-0">ПО любого назначения на полном спектре операционных систем:
+									Windows, Mac OS, Unix и другие.</p>
+								<span class="btn btn hover-scale outlined round c-s">
+									<span class="icon icon-20 svg color-inherit c-c color-inherit">
+										<svg>
+											<use xlink:href="#arrow-right"></use>
+										</svg>
+									</span>
+								</span>
+							</div>
+							<ul class="service-logo no-list">
+								<li><img src="./img/macos-logo.svg" alt="macOSlogo"></li>
+								<li><img src="./img/windows-logo.svg" alt="Windows logo"></li>
+								<li><img src="./img/unix-logo.svg" alt="Unix logo"></li>
+							</ul>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="cases">
+			<div class="container">
+				<div class="title-line">
+					<span class="sub-title">Новое</span>
+					<h2 class="block-title m-0">Кейсы</h2>
+					<button class="btn btn hover-scale right-icon outlined c-s">
+						<span class="button-text">Все проекты</span>
+						<span class="icon icon-20 svg color-inherit c-c color-inherit">
+							<svg>
+								<use xlink:href="#arrow-right"></use>
+							</svg>
+						</span>
+					</button>
+				</div>
+			</div>
+			<div class="container-xl">
+				<ul class="cases-list no-list">
+					<li>
+						<a href="#" class="case-link">
+							<div class="case-content">
+								<div class="case-info">
+									<h3 class="case-title">Фрейморк для тестирования</h3>
+									<p class="case-descr m-0">Разработали фреймворк для автоматизации критических
+										сценариев
+										использования банковского продукта.</p>
+									<ul class="no-list case-cat">
+										<li>WEB</li>
+										<li>Автоматизация</li>
+										<li>Фреймворк</li>
+										<li>Банкинг</li>
+									</ul>
+								</div>
+								<div class="case-img lazy-img lazy-progress">
+									<picture>
+										<source type="image/webp" data-srcset="./img/image-01.webp">
+										<source type="image/jpeg" data-srcset="./img/image-01.jpg">
+										<img class="lazy" data-srcset="./img/image-01.jpg" alt="Картинка проекта"
+											width="1536" height="552">
+									</picture>
+								</div>
+							</div>
+							<span class="btn outlined round c-s"><span
+									class="icon icon-20 svg color-inherit c-c color-inherit">
+									<svg>
+										<use xlink:href="#arrow-right"></use>
+									</svg>
+								</span>
+							</span>
+						</a>
+					</li>
+
+					<li>
+						<a href="#" class="case-link">
+							<div class="case-content">
+								<div class="case-info">
+									<h3 class="case-title">Тестирование банковского приложения СБОЛ</h3>
+									<p class="case-descr m-0">Предоставление независимой команды тестировщиков для
+										обеспечения качества мобильного приложения.</p>
+									<ul class="no-list case-cat">
+										<li>Mobile</li>
+										<li>Финтех</li>
+									</ul>
+								</div>
+								<div class="case-img lazy-img lazy-progress">
+									<picture>
+										<source type="image/webp" data-srcset="./img/image-02.webp">
+										<source type="image/jpeg" data-srcset="./img/image-02.jpg">
+										<img class="lazy" data-srcset="./img/image-02.jpg" alt="Картинка проекта"
+											width="1536" height="552">
+									</picture>
+								</div>
+							</div>
+							<span class="btn outlined round c-s"><span
+									class="icon icon-20 svg color-inherit c-c color-inherit">
+									<svg>
+										<use xlink:href="#arrow-right"></use>
+									</svg>
+								</span>
+							</span>
+						</a>
+					</li>
+
+				</ul>
+			</div>
+		</section>
+		<div class="cta">
+			<div class="container">
+				<div class="cta-content c-c">
+					<button class="btn c-c cta-btn">Заполнить бриф</button>
+					<p class="cta-sub m-0">Подготовим предложение в течение 2 рабочих дней!</p>
+				</div>
+			</div>
+		</div>
+		<section class="about">
+			<div class="container">
+				<div class="title-line">
+					<span class="sub-title">QA Service Lab</span>
+					<h2 class="block-title m-0">О компании</h2>
+					<button class="btn btn hover-scale right-icon outlined c-s">
+						<span class="button-text">Подробнее</span>
+						<span class="icon icon-20 svg color-inherit c-c color-inherit">
+							<svg>
+								<use xlink:href="#arrow-right"></use>
+							</svg>
+						</span>
+					</button>
+				</div>
+
+				<div class="about-tagline c-s">
+					<p class="m-0">Тестируем.</p>
+					<p class="m-0">Тестируем.</p>
+					<p class="m-0">Тестируем.</p>
+				</div>
+				<div class="about-content">
+					<ul class="about-numbers no-list">
+						<li>
+							<span class="number">320000</span>
+							<span class="number-info">Багов найдено</span>
+						</li>
+						<li>
+							<span class="number">2000000</span>
+							<span class="number-info">Пользуются продуктами которые мы тестировали</span>
+						</li>
+						<li>
+							<span class="number">16</span>
+							<span class="number-info">Клиентов</span>
+						</li>
+					</ul>
+					<div class="about-text">
+						<h2 class="about-title">Наша главная ценность - это довольные пользователи ваших it-продуктов и
+							сервисов.</h2>
+						<p>Мы - молодая амбициозная компания в Тульском ИТ сообществе. Возраст по сравнению с другими
+							совсем небольшой – всего 4
+							года, но за это время компания проделала большой путь и еще очень много амбициозных планов
+							впереди.</p>
+						<p>Наша история началась осенью 2019 года, когда нескольким профессионалам QA сферы пришла идея
+							создать компанию, которая
+							будет не просто заниматься тестированием, а сможет стать универсальной лабораторией по
+							обеспечению качества для любых
+							видов ПО, сервисов и приложений.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="new">
+			<div class="container-xl">
+				<div class="new-content">
+					<div class="news-inner">
+						<div class="new-text">
+							<h2 class="new-title">Выведите свой продукт на новый уровень</h2>
+							<p class="new-text m-0">Мы знаем, что ваши цели и задачи могут сильно отличаться и зависеть
+								от
+								множества факторов, поэтому финальное решение по варианту сотрудничества адаптируется
+								под
+								индивидуальные потребности каждого заказчика либо проекта.</p>
+						</div>
+						<div class="new-img lazy-img lazy-progress">
+							<img class="lazy" data-src="./img/new-img.svg" alt="Инфографика">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	</main>
+	<script src="./js/app.js"></script>
+</body>
+
+</html>
